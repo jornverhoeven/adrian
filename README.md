@@ -1,0 +1,2 @@
+ADRIAN is a multi-agent approach to decentralized automated security risk management proposed in "ADRIAN: Automated decentralized
+management of cybersecurity risks" by Sven Smolka, Jorn J. Verhoeven and Zoltán Ádám Mann.
