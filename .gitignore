@@ -23,7 +23,8 @@
 hs_err_pid*
 replay_pid*
 
-/graphs/
+.DS_STORE
+
 target/
 .idea/
 *.iml
