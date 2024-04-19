@@ -14,6 +14,10 @@ This is the repository for the ADRIAN project, containing the source code and re
 
 ## Risk Rules
 
+The agents utilize predefined rules to generate an attack graph from the knowledge base, determining when to create risk edges between vertices and their associated probabilities. These rules consider various conditions, such as the attributes and existence of nodes, software components, and links within the knowledge base. Below is a detailed list of all risk rules used in the experiments.
+
+For more information on how the risk rules are used, please refer [this short description](/risk-rules.pdf).
+
 | Name | Rule Type | Pk | Adaptation | Mitigation Probability
 | ---- | --------- | ---- | ---- | --- |
 | Uncertainty | Inward | 0.08 | N.A. |
@@ -32,6 +36,20 @@ This is the repository for the ADRIAN project, containing the source code and re
 
 * These risks are used for testing and are made up, and thus they have no real-world
 
+## Metrics
+
+The following metrics are collected during the experiments:
+
+**Effectiveness metrics**
+- Number of unique risks identified
+- Number of remaining risks
+- Sum of damages of remaining risks
+
+**Efficiency metrics**
+- Total number of messages exchanged
+- Number of adaptations
+- Average time spent auctioning
+- Average time spent adapting
 
 ## Results
 
