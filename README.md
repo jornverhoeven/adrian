@@ -8,33 +8,37 @@ This is the repository for the ADRIAN project, containing the source code and re
 - Jorn J. Verhoeven (2)
 - Zoltán  Ádám Mann (2)
 
-1. University of Duisburg-Essen, Essen, Germany
-2. University of Amsterdam, Amsterdam, The Netherlands
+(1) University of Duisburg-Essen, Essen, Germany
+\
+(2) University of Amsterdam, Amsterdam, The Netherlands
 
 
-## Risk Rules
+## Risk Rules and Adaptation Patterns
 
 The agents utilize predefined rules to generate an attack graph from the knowledge base, determining when to create risk edges between vertices and their associated probabilities. These rules consider various conditions, such as the attributes and existence of nodes, software components, and links within the knowledge base. Below is a detailed list of all risk rules used in the experiments.
 
 For more information on how the risk rules are used, please refer [this short description](/risk-rules.pdf).
+The adaptation patterns for mitigating risks can be found [here](/adaptation-patterns.pdf).
 
-| Name | Rule Type | Pk | Adaptation | Mitigation Probability
+The table below provides an overview of the implemented risk rules, as well as their exploitation probability, the manner in which they can be mitigated through adaptations, and the resulting changed exploitation probability after executing the adaptation.
+
+| Name | Rule Type | Exploitation Probability | Adaptation | Mitigation Probability
 | ---- | --------- | ---- | ---- | --- |
-| Uncertainty | Inward | 0.08 | N.A. |
-| Firewall | Backward | 0.8 | Enable Property | 0.2
-| Physically Secured | Backward | 0.8 | Enable Property | 0.2
-| Software Encrypted | Backward | 0.8 | Enable Property | 0.2
 | CVE-2020-3676 | Forward | 0.8 | Enable Property | 0.2
 | CVE-2021-22547 | Forward | 0.18 | Version Change | 0.0
 | CVE-2021-40830 | Inward | 0.18 | Version Change | 0.0
 | CVE-2022-25666 | Forward | 0.28 | Version Change | 0.0
-| CVE-2022-359274 | Backward | 0.08 | Version Change | 0.0
-| CVE-2022-359274 | Inward | 0.39 | Version Change | 0.0
+| CVE-2022-359274(1) | Backward | 0.39 | Version Change | 0.0
+| CVE-2022-359274(2) | Inward | 0.39 | Version Change | 0.0
 | Firmware Risk* | Forward | 0.1 | N.A. |
 | OS Risk* | Forward | 0.4 | Version Change | 0.0
 | SDK Risk* | Forward | 0.99 | Version Change | 0.0
+| Uncertainty* | Inward | 0.08 | N.A. |
+| Firewall* | Backward | 0.8 | Enable Property | 0.2
+| Physically Secured* | Backward | 0.8 | Enable Property | 0.2
+| Software Encrypted* | Backward | 0.8 | Enable Property | 0.2
 
-* These risks are used for testing and are made up, and thus they have no real-world
+* Risk rules marked with * were used for testing and are not based on real-world vulnerabilities (for example, using CVEs). 
 
 ## Metrics
 
@@ -43,13 +47,13 @@ The following metrics are collected during the experiments:
 **Effectiveness metrics**
 - Number of unique risks identified
 - Number of remaining risks
-- Sum of damages of remaining risks
+- Total expected damage
 
 **Efficiency metrics**
-- Total number of messages exchanged
+- Number of messages exchanged
 - Number of adaptations
-- Average time spent auctioning
-- Average time spent adapting
+- Cumulative time spent auctioning
+- Cumulative time spent adapting
 
 ## Results
 
