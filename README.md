@@ -61,101 +61,101 @@ The following metrics are collected during the experiments:
 In this scenario, no external changes are made to the infrastructure. The purpose of this scenario is to see how the system behaves when no changes are made.
 
 ![damage](https://anonymous.4open.science/r/adrian-6565/graphs/scenario-1/damage.png)
-_Fig. 1: This graph shows the overall damage of the system in the scenario where no changes are made overtime._
+_Fig. 1: Overall damage of the system in the scenario where no changes are made over time._
 
 ![messages](https://anonymous.4open.science/r/adrian-6565/graphs/scenario-1/messages.png)
-_Fig. 2: Graph showing the total amount of messages sent between agents in the scenario where no changes are made overtime._
+_Fig. 2: Total number of messages sent between agents in the scenario where no changes are made over time._
 
 ![adaptations](https://anonymous.4open.science/r/adrian-6565/graphs/scenario-1/adaptations.png)
-_Fig. 3: Graph showing the total amount of adaptations applied by agents in the scenario where no changes are made overtime._
+_Fig. 3: Total number of adaptations applied by agents in the scenario where no changes are made over time._
 
 ![unique-risks](https://anonymous.4open.science/r/adrian-6565/graphs/scenario-1/unique-risks.png)
-_Fig. 4: Graph showing the number of unique risks detected by agents in the scenario where no changes are made overtime._
+_Fig. 4: Number of unique risks detected by agents in the scenario where no changes are made over time._
 
 ![remaining-risks](https://anonymous.4open.science/r/adrian-6565/graphs/scenario-1/remaining-risks.png)
-_Fig. 5: Graph showing the number of remaining risks in the infrastructure in the scenario where no changes are made overtime._
+_Fig. 5: Number of remaining risks in the system in the scenario where no changes are made over time._
 
 ![auctioning-time](https://anonymous.4open.science/r/adrian-6565/graphs/scenario-1/auctioning-time.png)
-_Fig. 6: Graph showing the sum of time spent auctioning by agents in the scenario where no changes are made overtime._
+_Fig. 6: Total time spent auctioning by agents in the scenario where no changes are made over time._
 
 ![adapting-time](https://anonymous.4open.science/r/adrian-6565/graphs/scenario-1/adapting-time.png)
-_Fig. 7: Graph showing the sum of time spent adapting by agents in the scenario where no changes are made overtime._
+_Fig. 7: Total time spent adapting by agents in the scenario where no changes are made over time._
 
 ### Scenario 2
 This scenario introduces a risk to the infrastructure after 180 seconds. The purpose of this scenario is to see how the system behaves when a new risk is introduced.
 
 ![damage](https://anonymous.4open.science/r/adrian-6565/graphs/scenario-2/damage.png)
-_Fig. 8: This graph shows the overall damage of the system in the risk introduction scenario. The damage is shown for each of the three strategies. The vertical lines indicate the time at which a risk is introduced._
+_Fig. 8: Overall damage of the system in the risk introduction scenario. The damage is shown for each of the three ADRIAN variants. The vertical line indicates the time at which a risk is introduced._
 
 ![messages](https://anonymous.4open.science/r/adrian-6565/graphs/scenario-2/messages.png)
-_Fig. 9: Graph showing the total amount of messages sent between agents in the risk introduction scenario._
+_Fig. 9: Total number of messages sent between agents in the risk introduction scenario._
 
 ![adaptations](https://anonymous.4open.science/r/adrian-6565/graphs/scenario-2/adaptations.png)
-_Fig. 10: Graph showing the total amount of adaptations applied by agents in the risk introduction scenario._
+_Fig. 10: Total number of adaptations applied by agents in the risk introduction scenario._
 
 ![unique-risks](https://anonymous.4open.science/r/adrian-6565/graphs/scenario-2/unique-risks.png)
-_Fig. 11: Graph showing the number of unique risks detected by agents in the risk introduction scenario._
+_Fig. 11: Number of unique risks detected by agents in the risk introduction scenario._
 
 ![remaining-risks](https://anonymous.4open.science/r/adrian-6565/graphs/scenario-2/remaining-risks.png)
-_Fig. 12: Graph showing the number of remaining risks in the infrastructure in the risk introduction scenario._
+_Fig. 12: Number of remaining risks in the system in the risk introduction scenario._
 
 ![auctioning-time](https://anonymous.4open.science/r/adrian-6565/graphs/scenario-2/auctioning-time.png)
-_Fig. 13: Graph showing the sum of time spent auctioning by agents in the risk introduction scenario._
+_Fig. 13: Total time spent auctioning by agents in the risk introduction scenario._
 
 ![adapting-time](https://anonymous.4open.science/r/adrian-6565/graphs/scenario-2/adapting-time.png)
-_Fig. 14: Graph showing the sum of time spent adapting by agents in the risk introduction scenario._
+_Fig. 14: Total time spent adapting by agents in the risk introduction scenario._
 
 ### Scenario 3
 This scenario introduces a new infrastructure node every 30 seconds. The purpose of this scenario is to see how the system behaves when the infrastructure is growing.
 
 ![damage](https://anonymous.4open.science/r/adrian-6565/graphs/scenario-3/damage.png)
-_Fig. 15: This graph shows the overall damage of the system in the infrastructure growth scenario. The damage is shown for each of the three strategies. The vertical lines indicate the time at which a new infrastructure node is introduced._
+_Fig. 15: Overall damage of the system in the infrastructure growth scenario. The damage is shown for each of the three variants. The vertical lines indicate the times at which a new node is introduced._
 
 ![messages](https://anonymous.4open.science/r/adrian-6565/graphs/scenario-3/messages.png)
-_Fig. 16: Graph showing the total amount of messages sent between agents in the infrastructure growth scenario._
+_Fig. 16: Total amount of messages sent between agents in the infrastructure growth scenario._
 
 ![adaptations](https://anonymous.4open.science/r/adrian-6565/graphs/scenario-3/adaptations.png)
-_Fig. 17: Graph showing the total amount of adaptations applied by agents in the infrastructure growth scenario._
+_Fig. 17: Total number of adaptations applied by agents in the infrastructure growth scenario._
 
 ![unique-risks](https://anonymous.4open.science/r/adrian-6565/graphs/scenario-3/unique-risks.png)
-_Fig. 18: Graph showing the number of unique risks detected by agents in the infrastructure growth scenario._
+_Fig. 18: Number of unique risks detected by agents in the infrastructure growth scenario._
 
 ![remaining-risks](https://anonymous.4open.science/r/adrian-6565/graphs/scenario-3/remaining-risks.png)
-_Fig. 19: Graph showing the number of remaining risks in the infrastructure in the infrastructure growth scenario._
+_Fig. 19: Number of remaining risks in the system in the infrastructure growth scenario._
 
 ![auctioning-time](https://anonymous.4open.science/r/adrian-6565/graphs/scenario-3/auctioning-time.png)
-_Fig. 20: Graph showing the sum of time spent auctioning by agents in the infrastructure growth scenario._
+_Fig. 20: Total time spent auctioning by agents in the infrastructure growth scenario._
 
 ![adapting-time](https://anonymous.4open.science/r/adrian-6565/graphs/scenario-3/adapting-time.png)
-_Fig. 21: Graph showing the sum of time spent adapting by agents in the infrastructure growth scenario._
+_Fig. 21: Total time spent adapting by agents in the infrastructure growth scenario._
 
 ### Scenario 4
 This scenario removes an existing infrastructure node after 30 seconds, and adds the node back into the infrastructure after another 30 seconds. This is repeated twice. The purpose of this scenario is to see how the system behaves when the infrastructure (connection) is unstable.
 
 ![damage](https://anonymous.4open.science/r/adrian-6565/graphs/scenario-4/damage.png)
-_Fig. 22: This graph shows the overall damage of the system in the unstable infrastructure scenario. The damage is shown for each of the three strategies. The vertical lines indicate the time at which an infrastructure node is removed and added back._
+_Fig. 22: Overall damage in the system in the unstable infrastructure scenario. The damage is shown for each of the three variants. The vertical lines indicate the times at which a node is removed or added back._
 
 ![messages](https://anonymous.4open.science/r/adrian-6565/graphs/scenario-4/messages.png)
-_Fig. 23: Graph showing the total amount of messages sent between agents in the unstable infrastructure scenario._
+_Fig. 23: Total number of messages sent between agents in the unstable infrastructure scenario._
 
 ![adaptations](https://anonymous.4open.science/r/adrian-6565/graphs/scenario-4/adaptations.png)
-_Fig. 24: Graph showing the total amount of adaptations applied by agents in the unstable infrastructure scenario._
+_Fig. 24: Total number of adaptations applied by agents in the unstable infrastructure scenario._
 
 ![unique-risks](https://anonymous.4open.science/r/adrian-6565/graphs/scenario-4/unique-risks.png)
-_Fig. 25: Graph showing the number of unique risks detected by agents in the unstable infrastructure scenario._
+_Fig. 25: Number of unique risks detected by agents in the unstable infrastructure scenario._
 
 ![remaining-risks](https://anonymous.4open.science/r/adrian-6565/graphs/scenario-4/remaining-risks.png)
-_Fig. 26: Graph showing the number of remaining risks in the infrastructure in the unstable infrastructure scenario._
+_Fig. 26: Number of remaining risks in the system in the unstable infrastructure scenario._
 
 ![auctioning-time](https://anonymous.4open.science/r/adrian-6565/graphs/scenario-4/auctioning-time.png)
-_Fig. 27: Graph showing the sum of time spent auctioning by agents in the unstable infrastructure scenario._
+_Fig. 27: Total time spent auctioning by agents in the unstable infrastructure scenario._
 
 ![adapting-time](https://anonymous.4open.science/r/adrian-6565/graphs/scenario-4/adapting-time.png)
-_Fig. 28: Graph showing the sum of time spent adapting by agents in the unstable infrastructure scenario._
+_Fig. 28: Total time spent adapting by agents in the unstable infrastructure scenario._
 
 ### Miscellaneous
 ![small-infrastructures](https://anonymous.4open.science/r/adrian-6565/graphs/small-infra.png)
-_Fig. 29: This graph shows the overall damage on a small infrastructure containing 4 nodes. This shows the overhead that comes with the time spent on auctioning for smaller infrastructures._
+_Fig. 29: Overall damage on a small infrastructure containing 4 nodes. This shows the overhead that comes with the time spent on auctioning for smaller infrastructures._
 
 ![consistency](graphs/consistency.png)
-_Fig. 30: This graph shows multiple runs using the same scenario. The purpose of this graph is to show the consistency of the system._
+_Fig. 30: Multiple runs using the same scenario. The purpose of this graph is to show the consistency of the results._
