@@ -82,7 +82,7 @@ _Fig. 6: Total time spent auctioning by agents in the scenario where no changes 
 _Fig. 7: Total time spent adapting by agents in the scenario where no changes are made over time._
 
 ### Scenario 2
-This scenario introduces a risk to the infrastructure after 180 seconds. The purpose of this scenario is to see how the system behaves when a new risk is introduced.
+This scenario introduces a risk to the infrastructure after 120 seconds. The purpose of this scenario is to see how the system behaves when a new risk is introduced.
 
 ![damage](https://anonymous.4open.science/r/adrian-6565/graphs/scenario-2/damage.png)
 _Fig. 8: Overall damage of the system in the risk introduction scenario. The damage is shown for each of the three ADRIAN variants. The vertical line indicates the time at which a risk is introduced._
